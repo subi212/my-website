@@ -12,7 +12,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+ font-family: "Sansation", sans-serif;
   line-height: 1.6;
 }
 
@@ -39,6 +39,7 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+button { font-family: inherit; }
 button:hover { filter: brightness(1.15); }
 button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 
